@@ -39,7 +39,7 @@ class WordTool {
             {
                 String[] strArr = word.split("");
                 for (String s : strArr) {
-                    count = count +( s.equals(symbol) ? 1 : 0);
+                    count = count +( s.toLowerCase().equals(symbol.toLowerCase()) ? 1 : 0);
                 }
 
             }
