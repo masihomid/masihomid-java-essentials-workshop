@@ -1,4 +1,12 @@
 package com.assignment1;
+/**
+ * WordTool Application
+ *It shows the usage of String class methods.
+ *
+ * @author Masih Omid
+ * @version 0.1
+ * @since 20190305
+ */
 
 import javax.swing.text.html.parser.Parser;
 import java.util.Scanner;
