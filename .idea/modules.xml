@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-essentials-workshop.iml" filepath="$PROJECT_DIR$/java-essentials-workshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson04-inheretance/lesson04-inheretance.iml" filepath="$PROJECT_DIR$/lesson04-inheretance/lesson04-inheretance.iml" />
     </modules>
   </component>
 </project>
