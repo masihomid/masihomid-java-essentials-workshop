@@ -12,14 +12,15 @@ public class Main {
         spider.crawl();
         spider.says();
         spider.says("salam");
-
         cricket.crawl();
         cricket.says();
+
         cricket.jump();
 
-        if (spider instanceof Insect && spider instanceof Spider) {
+
+     /*   if (spider instanceof Insect && spider instanceof Spider) {
             System.out.println("Spider is an insect and a spider");
-        }
+        }*/
 
     }
 

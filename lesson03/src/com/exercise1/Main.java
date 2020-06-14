@@ -1,4 +1,4 @@
-package com.assignment1;
+package com.exercise1;
 /**
  * WordTool Application
  *It shows the usage of String class methods.
@@ -8,7 +8,6 @@ package com.assignment1;
  * @since 20190305
  */
 
-import javax.swing.text.html.parser.Parser;
 import java.util.Scanner;
 
 public class Main {
@@ -28,6 +27,7 @@ public class Main {
 
             System.out.println("Enter the value for the first side of your triangle:");
             firstSide = myScanner.next();
+
             if (!myTrigonometry.isNumeric(firstSide)){
                 System.out.println("please enter a numeric value");
                 continue;
@@ -38,9 +38,9 @@ public class Main {
             System.out.println("Enter the value for the second side of your triangle:");
             secondSide = myScanner.next();
 
-            if (!myTrigonometry.isNumeric(firstSide)){
+            if (!myTrigonometry.isNumeric(secondSide)){
                 System.out.println("please enter a numeric value");
-                continue;
+                break;
             }
 
             b = Integer.parseInt(secondSide);

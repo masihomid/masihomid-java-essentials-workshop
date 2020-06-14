@@ -5,6 +5,7 @@ public class Main {
         WordTool wordTool = new WordTool();
         String text = "THis is our test sentence";
         String search = "t";
+        String searchCapital = "T";
 
 
 
@@ -14,5 +15,7 @@ public class Main {
         System.out.println( "Total symbols (wo. spaces): " + wordTool.lettersCount(text, false) );
         System.out.println( "Total amount of " + search + ": " + wordTool.countSymbol(text, search) );
         System.out.println( "Using the second method --Total amount of " + search + ": " + wordTool.countSymbol2(text, 't') );
+        System.out.println( "Using the second method --Total amount of " + search + ": " + wordTool.countSymbol2(text, 'T') );
+
     }
 }

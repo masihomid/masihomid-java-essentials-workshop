@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-essentials-workshop.iml" filepath="$PROJECT_DIR$/java-essentials-workshop.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson04-Computer-interface-polymorphism/lesson04-Computer-interface-polymorphism.iml" filepath="$PROJECT_DIR$/lesson04-Computer-interface-polymorphism/lesson04-Computer-interface-polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson04-assignmnet-myAutoShop/lesson04-assignmnet-myAutoShop.iml" filepath="$PROJECT_DIR$/lesson04-assignmnet-myAutoShop/lesson04-assignmnet-myAutoShop.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson04-inheretance/lesson04-inheretance.iml" filepath="$PROJECT_DIR$/lesson04-inheretance/lesson04-inheretance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson05-WorldTool2/lesson05-WorldTool2.iml" filepath="$PROJECT_DIR$/lesson05-WorldTool2/lesson05-WorldTool2.iml" />
     </modules>
   </component>
 </project>

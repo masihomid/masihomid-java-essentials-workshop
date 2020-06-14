@@ -55,7 +55,7 @@ class WordTool {
         // if the entry is empty or is null, count is zero
         // therefore we evaluate it only otherwise
         if ( !(s == null || s.isEmpty()) ) {
-            count = s.length() - s.replace(Character.toString(c), "").length();
+            count = s.length() - s.replace(Character.toString(c).toLowerCase(), "").length();
         }
         return count;
     }

@@ -9,8 +9,9 @@ public class Main {
         System.out.println(myTab.sendSMS());
 
         Computer c = myTab;
+
         Phone p = myTab;
-        
+
         if (myTab instanceof Computer) System.out.println("myTab is a Computer");
         if (myTab instanceof Phone) System.out.println("myTab is a Phone as well");
         if (myTab instanceof Object) System.out.println("myTab is an Object ");

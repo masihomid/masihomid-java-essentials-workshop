@@ -1,4 +1,4 @@
-public class Spider extends Insect {
+public class Spider extends Insect  {
 
     boolean isPoisonous;
 

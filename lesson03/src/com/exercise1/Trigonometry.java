@@ -1,4 +1,4 @@
-package com.assignment1;
+package com.exercise1;
 
 public class Trigonometry {
 
