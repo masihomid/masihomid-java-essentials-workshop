@@ -38,13 +38,14 @@ public class WordTool2 {
             int freq = Collections.frequency(wholeText,s);
             //put the result in a map
             result.put(s,freq);
-            //System.out.println(s + " was repeated " + freq + " times." );
+
         }
         TreeMap treeMap = new TreeMap();
         //put the result map into a TreeMap so it gets sorted.
         treeMap.putAll(result);
 
         System.out.println(treeMap);
+
 
         System.out.println("*******************");
         System.out.println("You typed " + wholeText.size() + " words. In " + lineCount + " lines." );

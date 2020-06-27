@@ -13,10 +13,10 @@ public class WordTool2 {
         List<String> wholeText = new ArrayList<String>();
 
         while(!eachLine.equals("*")){
-            eachLine = myInput.nextLine();
-            wordsInEachLine =eachLine.split(" ");
-            wholeText.addAll(Arrays.asList(wordsInEachLine));
-            lineCount++;
+                eachLine = myInput.nextLine();
+                wordsInEachLine =eachLine.split(" ");
+                wholeText.addAll(Arrays.asList(wordsInEachLine));
+                lineCount++;
 
         }
 

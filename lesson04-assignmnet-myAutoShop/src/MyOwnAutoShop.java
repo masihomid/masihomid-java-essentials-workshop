@@ -16,8 +16,21 @@ import java.util.*;
             System.out.printf("MyFord2 Price %.2f", myFord2.getSalePrice());
             System.out.printf("MyCar Price %.2f", myCar.getSalePrice());
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ///------------------------------------------------------------------------
-            House myHouse = new House("yonge","999");
+ /*           House myHouse = new House("yonge","999");
 
             Map map = new HashMap();
 
@@ -30,7 +43,7 @@ import java.util.*;
 
             List mylist = new ArrayList();
             mylist.add(35);
-            Collections.shuffle(mylist);
+            Collections.shuffle(mylist);*/
             }
         }
 

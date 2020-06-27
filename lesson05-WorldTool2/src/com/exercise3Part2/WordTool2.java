@@ -48,6 +48,8 @@ public class WordTool2 {
         Collections.sort(resultList,new SortNodesByValue());
 
 
+
+
         for (int i = 0; i < resultList.size(); i++) {
             System.out.print("The word "+resultList.get(i).key);
             System.out.println(" is repeated. " + resultList.get(i).value);
